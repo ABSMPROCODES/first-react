@@ -7,7 +7,7 @@
     "rating": 9.5,
     "battingType": "Right-Hand-Bat",
     "price": 1500000,
-    "image": "https://example.com/images/virat-kohli.jpg"
+    "image":"https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "rating": 9.1,
     "battingType": "Left-Hand-Bat",
     "price": 1200000,
-    "image": "https://example.com/images/shakib-al-hasan.jpg"
+    "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "rating": 9.2,
     "battingType": "Right-Hand-Bat",
     "price": 1350000,
-    "image": "https://example.com/images/babar-azam.jpg"
+    "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "rating": 8.9,
     "battingType": "Left-Hand-Bat",
     "price": 1400000,
-    "image": "https://example.com/images/ben-stokes.jpg"
+    "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "rating": 9.4,
     "battingType": "Right-Hand-Bat",
     "price": 1300000,
-    "image": "https://example.com/images/jasprit-bumrah.jpg"
+    "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
     "id": 6,
@@ -57,6 +57,6 @@
     "rating": 9.0,
     "battingType": "Right-Hand-Bat",
     "price": 1100000,
-    "image": "https://example.com/images/rashid-khan.jpg"
+    "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   }
 ]

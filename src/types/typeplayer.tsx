@@ -6,4 +6,5 @@
     rating: number;
    battingType: string;
     price: number,
+    image: string;
 }
