@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.5,
+    "battingType": "Right-Hand-Bat",
+    "price": 1500000,
+    "image": "https://example.com/images/virat-kohli.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 9.1,
+    "battingType": "Left-Hand-Bat",
+    "price": 1200000,
+    "image": "https://example.com/images/shakib-al-hasan.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 9.2,
+    "battingType": "Right-Hand-Bat",
+    "price": 1350000,
+    "image": "https://example.com/images/babar-azam.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 8.9,
+    "battingType": "Left-Hand-Bat",
+    "price": 1400000,
+    "image": "https://example.com/images/ben-stokes.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 9.4,
+    "battingType": "Right-Hand-Bat",
+    "price": 1300000,
+    "image": "https://example.com/images/jasprit-bumrah.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 9.0,
+    "battingType": "Right-Hand-Bat",
+    "price": 1100000,
+    "image": "https://example.com/images/rashid-khan.jpg"
+  }
+]
