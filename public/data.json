@@ -6,7 +6,7 @@
     "role": "Batsman",
     "rating": 9.5,
     "battingType": "Right-Hand-Bat",
-    "price": 1500000,
+    "price": 1000,
     "image":"https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
@@ -16,7 +16,7 @@
     "role": "All-Rounder",
     "rating": 9.1,
     "battingType": "Left-Hand-Bat",
-    "price": 1200000,
+    "price": 120,
     "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
@@ -26,7 +26,7 @@
     "role": "Batsman",
     "rating": 9.2,
     "battingType": "Right-Hand-Bat",
-    "price": 1350000,
+    "price": 1300,
     "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
@@ -36,7 +36,7 @@
     "role": "All-Rounder",
     "rating": 8.9,
     "battingType": "Left-Hand-Bat",
-    "price": 1400000,
+    "price": 1000,
     "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
@@ -46,7 +46,7 @@
     "role": "Bowler",
     "rating": 9.4,
     "battingType": "Right-Hand-Bat",
-    "price": 1300000,
+    "price": 1300,
     "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   },
   {
@@ -56,7 +56,7 @@
     "role": "Bowler",
     "rating": 9.0,
     "battingType": "Right-Hand-Bat",
-    "price": 1100000,
+    "price": 1100,
     "image": "https://i.guim.co.uk/img/media/5ad0e8737bbfb16866951dca481155cdbc9b7b06/0_130_2746_1648/master/2746.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=00c6109466591a4d2c211ce77aecb4de"
   }
 ]

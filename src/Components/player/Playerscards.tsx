@@ -1,8 +1,32 @@
-
+import { useState, type Dispatch, type SetStateAction } from 'react';
 import type { IPlayer } from '../../types/typeplayer';
 import { CiUser } from 'react-icons/ci';
+import Players from './Players';
+import { toast } from 'react-toastify';
 
-const Playerscards = ({ player }: { player: IPlayer }) => {
+interface IPlayerscard {
+  player: IPlayer
+ playerspromise: Promise<IPlayer[]>;
+   coin : number
+   setcoin : Dispatch<SetStateAction<number>>;
+}
+
+const Playerscards = ({ player, coin, setcoin}: IPlayerscard) => {
+const [isSelected, setIsselected] = useState(false);
+
+const handleSelectplayer = () => {
+setIsselected(true);
+
+const newprice = coin - player.price
+if (newprice >= 0){
+  setcoin(newprice)
+  toast.success( `${player.name} is purchased successfully`)
+}
+else {
+  toast.error("Coin is not enough to buy");
+}
+}
+
   return (
    <div className="card bg-base-100  shadow-sm">
   <figure>
@@ -20,7 +44,9 @@ const Playerscards = ({ player }: { player: IPlayer }) => {
    </div>
     <div className="card-actions justify-between">
       <h2 className="font-bold text-xl">Price: ${player.price.toLocaleString()} </h2>
-      <button className="btn btn-primary">Buy Now</button>
+      <button
+      onClick={() => handleSelectplayer()}
+      className="btn btn-primary" disabled = {isSelected ? true : false}>{isSelected === true ? "Selected" : "Buy Now"}</button>
     </div>
   </div>
           </div>
