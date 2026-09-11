@@ -1,7 +1,6 @@
 import { useState, type Dispatch, type SetStateAction } from 'react';
 import type { IPlayer } from '../../types/typeplayer';
 import { CiUser } from 'react-icons/ci';
-import Players from './Players';
 import { toast } from 'react-toastify';
 
 interface IPlayerscard {
@@ -9,9 +8,17 @@ interface IPlayerscard {
  playerspromise: Promise<IPlayer[]>;
    coin : number
    setcoin : Dispatch<SetStateAction<number>>;
+    selectedPlayers: object[]
+  setSelectedPlayers:Dispatch<SetStateAction<object[]>>;
 }
 
-const Playerscards = ({ player, coin, setcoin}: IPlayerscard) => {
+const Playerscards = ({ 
+  player, 
+  coin, 
+  setcoin,
+  selectedPlayers, 
+  setSelectedPlayers,}: 
+  IPlayerscard) => {
 const [isSelected, setIsselected] = useState(false);
 
 const handleSelectplayer = () => {
@@ -21,10 +28,13 @@ const newprice = coin - player.price
 if (newprice >= 0){
   setcoin(newprice)
   toast.success( `${player.name} is purchased successfully`)
-}
+  }
 else {
   toast.error("Coin is not enough to buy");
-}
+  }
+ 
+  setSelectedPlayers([...selectedPlayers, player]);
+
 }
 
   return (
