@@ -1,5 +1,3 @@
-
-import { CiUser } from 'react-icons/ci';
 import type { IPlayer } from '../../types/typeplayer';
 import Playerscards from './Playerscards';
 
